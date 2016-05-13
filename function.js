@@ -74,8 +74,8 @@ $.ajax({
 			$('#listeClient .collapse').collapsible();
 			
 		}, error :function (responseData, textStatus, errorThrown) {
-			//alert("erreur"+textStatus);
-			//alert(responseData);
+			alert("erreur"+textStatus);
+			alert(responseData);
 		}
 		});
 		
